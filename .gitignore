@@ -1,0 +1,12 @@
+# build output
+dist/
+# local paths and key location
+local.env
+# never commit the car's own pictures, apps or anything else pulled from a head unit
+*.apk
+*.odex
+*.webp
+*.png
+*.jks
+*.key
+.DS_Store

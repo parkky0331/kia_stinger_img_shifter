@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "settings": [
+    {
+      "key": "body_colour",
+      "type": "choice",
+      "default": "stock",
+      "apply": "restart",
+      "title": "테스트 중: 카메라 화면의 차량을 내 차 색으로 (Testing: body colour on the camera screen)",
+      "description": "카메라(어라운드뷰) 화면에 나오는 차량을 고른 색으로 보여 줍니다. 화면의 차는 카메라 영상에 그려진 그림이라, 그 위에 고른 색의 차를 덧씌우는 방식입니다. 화면 선택 버튼의 작은 차도 같은 색이 됩니다. 아직 테스트 중이고, '끄기'로 두면 카메라 화면은 건드리지 않습니다. 바꾼 뒤에는 Restart unit. / Shows the car on the camera (surround view) screen in the colour you pick, by laying a car in that colour over the one in the video. Still being tested; left at Off the camera screen is not touched. Restart the unit after a change.",
+      "options": [
+        {
+          "value": "stock",
+          "title": "끄기 (Off)"
+        },
+        {
+          "value": "snow_white_pearl",
+          "title": "스노우 화이트 펄 (Snow White Pearl)"
+        },
+        {
+          "value": "aurora_black_pearl",
+          "title": "오로라 블랙 펄 (Aurora Black Pearl)"
+        },
+        {
+          "value": "panthera_metal",
+          "title": "판테라 메탈 (Panthera Metal)"
+        },
+        {
+          "value": "ceramic_silver",
+          "title": "세라믹 실버 (Ceramic Silver)"
+        },
+        {
+          "value": "hichroma_red",
+          "title": "하이크로마 레드 (HiChroma Red)"
+        },
+        {
+          "value": "deep_chroma_blue",
+          "title": "딥 크로마 블루 (Deep Chroma Blue)"
+        },
+        {
+          "value": "micro_blue",
+          "title": "마이크로 블루 (Micro Blue)"
+        },
+        {
+          "value": "neon_orange",
+          "title": "네온 오렌지 (Neon Orange)"
+        },
+        {
+          "value": "ascot_green",
+          "title": "에스코트 그린 (Ascot Green)"
+        },
+        {
+          "value": "moonscape_matte_gray",
+          "title": "문스케이프 매트 그레이 (Moonscape Matte Gray)"
+        }
+      ]
+    },
+    {
+      "key": "around_view_layer",
+      "type": "toggle",
+      "default": false,
+      "apply": "restart",
+      "title": "테스트 중: 차량을 따로 그리기 (Testing: draw the car on its own layer)",
+      "description": "화면이 꺼질 때 덧씌운 차가 영상보다 조금 늦게 사라지는 것을 줄여 보려는 방식입니다. 아직 차에서 확인하지 못했습니다. 차가 안 보이거나 주변 화면이 이상하면 끄세요. 바꾼 뒤에는 Restart unit. / Tries to make the overlaid car leave together with the video when the screen closes. Not confirmed on a car yet: switch it off if anything looks wrong."
+    }
+  ]
+}

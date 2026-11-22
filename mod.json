@@ -1,0 +1,21 @@
+{
+  "id": "stinger-imgshifter",
+  "name": "Stinger Image Shifter",
+  "version": "0.1.0",
+  "hmgapi": ">=1.0.2",
+  "authors": [
+    "parkky0331"
+  ],
+  "license": "AGPL-3.0",
+  "repo": "https://github.com/parkky0331/kia_stinger_img_shifter",
+  "description": "스팅어 전용. 드라이브 모드를 바꿀 때 나오는 순정 그림(검은 일반 세단)을 구형 인포테인먼트의 스팅어 투시도로 바꿉니다. 그림은 차에 들어 있는 순정 그림으로 만들고 파일은 하나도 바꾸지 않습니다. 끄면 순정 그대로 돌아옵니다. 테스트 중인 기능으로, 설정에서 색을 고르면 카메라 화면의 차량을 그 색으로 보여 줍니다. / For the Kia Stinger: when the drive mode changes, shows the old see-through Stinger drawing in the mode's colour instead of the plain saloon. Made from the car's own pictures, no file is changed, and switched off everything is stock again. Still being tested: pick a colour in the settings and the car on the camera screen is shown in it.",
+  "system": {
+    "product": [
+      "CKPE"
+    ]
+  },
+  "hooks": {
+    "jar": "hooks.jar",
+    "entry": "dev.stinger.imgshifter.ImgShifter"
+  }
+}
